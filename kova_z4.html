@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="pl-PL"> 
+<head>
+    <title>Kovalchuk Z4_html</title>
+    <meta charset="utf-8">
+</head>
+<body bgcolor="gray">
+<b>Sposoby podłączania styli do strony </b> <br>
+<b>1)<u>Zewnętrzny</u> arkusz stylów.</b>
+<textarea rows="10" cols="70">
+    <head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea><br>
+<b>2)Styl <u>lokalny</u> inaczej: (styl wpisany, liniowy, linijkowy, w linii)<br>
+     czyli dopisanie arkusza do wybranego bloku treści strony.</b>
+<textarea rows="10" cols="70">
+    <selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea> <br>
+<b>3)<u>Wewnętrzny</u> arkusz stylów. </b>
+<textarea rows="10" cols="70">
+    <head>
+<style type="text/css">
+selektor1 { cecha: wartość; cecha2: wartość2... }
+selektor2 { cecha: wartość; cecha2: wartość2... }
+</style>
+</head>
+</textarea><br>
+<b>4)<u>Alternatywny</u> arkusz stylów. </b> 
+ <textarea rows="10" cols="70">
+    <head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+    </textarea><br>
+    <b>5)<u>Import</u> arkusza stylów. </b>
+    <textarea rows="10" cols="70">
+        <style type="text/css">
+@import url(adres zewnętrznego arkusza stylów);
+</style>
+        </textarea>
+<!--  Kovalchuk Z4_html  -->
+</body>
+</html>
