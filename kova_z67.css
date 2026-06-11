@@ -1,0 +1,27 @@
+#akapit1:first-letter{
+    color: lightgreen;
+    font-size: 121pt;
+}
+#akapit1{
+color: orange;
+font-size: 22pt;
+}
+#akapit2::first-letter{
+    color: red;
+    font-size: 121pt;
+}
+#akapit2{
+color: orange;
+font-size: 22pt;
+}
+
+#akapit3::first-line{
+    color: lightgreen;
+}
+h1::first-letter{
+    color: silver;
+    font-size: 121pt;
+}
+h1{
+    color: purple;
+}

@@ -1,0 +1,31 @@
+p{font-size:11pt;}
+p:first-child{font-size:7mm;font-style:italic;}
+
+div#pierwszy_kovalchuk{
+width: 744pt;
+background-color: pink;
+border-color: purple;
+border: 7px solid;
+border-radius:14mm ;
+}
+
+div#drugi_kovalchuk{
+width: 944pt;
+margin-left: auto;
+margin-right: auto;
+background-color: lightgreen;
+border: 3px solid;
+border-color: black;
+border-radius:16mm ;
+}  
+
+div#trzeci_kovalchuk{
+width: 1144pt;
+margin-left: auto;
+margin-right: auto;
+background-color: lightblue;
+border: 5px solid;
+border-color:  navy;
+border-radius:18mm ;
+}
+/* Kovalchuk Z65_css */
